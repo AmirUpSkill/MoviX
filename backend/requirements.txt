@@ -1,1 +1,21 @@
-# Python dependencies (fastapi, uvicorn, joblib...)
+# backend/requirements.txt
+
+# --- Web Framework & Server ---
+fastapi~=0.111.0
+uvicorn[standard]~=0.29.0
+
+# --- ML Model Serving ---
+scikit-learn~=1.5.0
+joblib~=1.4.2
+pandas~=2.2.2
+scipy~=1.13.1
+pyarrow~=16.1.0
+
+# --- Database Connection ---
+psycopg2-binary~=2.9.9
+asyncpg~=0.29.0
+sqlalchemy[asyncio]~=2.0.23
+
+# --- Configuration & Environment ---
+python-dotenv~=1.0.1
+pydantic-settings~=2.3.1
