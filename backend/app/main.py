@@ -1,0 +1,1 @@
+# Main FastAPI app instance and startup events
